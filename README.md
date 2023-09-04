@@ -2,7 +2,7 @@
 OpenAI Chatbot Interface - README
 Overview
 This repository contains a Python script that creates a chatbot interface using OpenAI's GPT-3.5 Turbo model. The chatbot is named "Assistant Friday" and allows users to have text-based conversations with it. Additionally, it offers the option to have the chatbot's responses spoken aloud using text-to-speech (TTS). The script also includes a rate limiting mechanism to control the number of responses per minute.
-<br>
+
 Prerequisites
 Before using this chatbot interface, you'll need to have the following prerequisites installed:
 
