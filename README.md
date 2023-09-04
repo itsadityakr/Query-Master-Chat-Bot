@@ -11,6 +11,9 @@ Python: You should have Python installed on your system. You can download it fro
 OpenAI Python Library: Install the OpenAI Python library by running the following command:
 pip install openai
 <br />
+<br />
+<br />
+<br />
 pyttsx3: Install the pyttsx3 library for text-to-speech functionality:
 pip install pyttsx3
 OpenAI API Key: You must have an OpenAI API key to access the GPT-3.5 Turbo model. Replace the placeholder API key in the script with your own.
