@@ -2,7 +2,7 @@ import openai
 import time
 import pyttsx3
 
-openai.api_key = "OPENAIPKEY"
+openai.api_key = "https://platform.openai.com/account/api-keys"
 
 messages = []
 system_msg = "permanent_chatbot"  # Set  your desired chatbot type here
