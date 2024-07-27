@@ -1,9 +1,9 @@
 
-# AI Chatbot - Assistant Friday
+# Query Master - Chat Bot
 
 ## Overview
 
-This repository contains a Python script that creates a chatbot interface using OpenAI's GPT-3.5 Turbo model. The chatbot, named "Assistant Friday," allows users to have text-based conversations and offers the option to have responses spoken aloud using text-to-speech (TTS). The script includes a rate limiting mechanism to control the number of responses per minute.
+This repository contains a Python script that creates a chatbot interface using OpenAI's GPT-3.5 Turbo model. The chatbot, named "Master," allows users to have text-based conversations and offers the option to have responses spoken aloud using text-to-speech (TTS). The script includes a rate limiting mechanism to control the number of responses per minute.
 
 ## Prerequisites
 
