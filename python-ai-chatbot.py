@@ -2,13 +2,13 @@ import openai
 import time
 import pyttsx3
 
-openai.api_key = "openai.api_key"
+openai.api_key = "API KEY"
 
 messages = []
 system_msg = "permanent_chatbot"  # Set  your desired chatbot type here
 messages.append({"role": "system", "content": system_msg})
 
-print("Assistant Stream 🌊 is ready!")
+print("Query Master is ready!")
 
 response_count = 0
 start_time = time.time()
@@ -16,7 +16,7 @@ start_time = time.time()
 engine = pyttsx3.init()  # Initialize text-to-speech engine
 
 while True:
-    user_input = input("-----------------------------------------------------------------\nYou       : ")
+    user_input = input("-----------------------------------------------------------------\nQuery    : ")
     if user_input == "quit()":
         break
 
@@ -40,10 +40,10 @@ while True:
         line_length += len(word) + 1
 
     messages.append({"role": "assistant", "content": assistant_reply})
-    print("Stream 🌊 :", formatted_reply + "\n")
+    print("Response : ", formatted_reply + "\n")
 
     # Ask the user whether to speak the assistant's response
-    speak_response = input("⚠️  Do you want Stream 🌊 to speak the response? (Y/N) ⚠️  : ")
+    speak_response = input("Dictate the response? (Y/N)  : ")
     if speak_response.lower() == "y":
         engine.say(formatted_reply)
         engine.runAndWait()
